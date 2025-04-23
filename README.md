@@ -22,8 +22,8 @@ A dynamic form management system built with Laravel, Vue.js, Inertia.js, and Typ
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd laravel-form-b
+git clone https://github.com/arifulhoque7/form-builder-lv.git
+cd form-builder-lv
 ```
 
 2. Install PHP dependencies:
