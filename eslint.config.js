@@ -2,6 +2,9 @@ import prettier from 'eslint-config-prettier';
 import vue from 'eslint-plugin-vue';
 
 import { defineConfigWithVueTs, vueTsConfigs } from '@vue/eslint-config-typescript';
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 export default defineConfigWithVueTs(
     vue.configs['flat/essential'],
@@ -17,3 +20,4 @@ export default defineConfigWithVueTs(
     },
     prettier,
 );
+
